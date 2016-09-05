@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/jgiuffrida/outlets/issues"
   },
-  "homepage": "https://github.com/jgiuffrida/outlets#readme"
+  "homepage": "https://github.com/jgiuffrida/outlets#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "rpi-gpio": "^0.7.0"
+  }
 }
