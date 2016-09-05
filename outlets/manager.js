@@ -41,7 +41,9 @@ class OutletManager {
             if(err) {
                 def.reject(err);
             } else {
-                gpio.write(this.outletToPins[outletId], status, (err) => {
+                // Write reverse status to pin... gotta figure this one out later
+                // TOOD: Why do i need to reverse the status?
+                gpio.write(this.outletToPins[outletId], !status, (err) => {
                     if(err) {
                         def.reject(err);
                     } else {
