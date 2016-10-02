@@ -5,4 +5,4 @@ var OutletManager = require('../outlets/manager'),
 setInterval(() => {
     let outlet = _.sample(testOutlets);
     OutletManager.setOutletStatus(outlet, !OutletManager.getOutletStatus(outlet));
-}, 500);
+},200);
