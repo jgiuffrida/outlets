@@ -10,8 +10,14 @@ module.exports = function (expressWs) {
     });
 
     var wss = expressWs.getWss('/status');
-    console.log(wss);
-    
+
+    function updateStatus() {
+        let status = OutletManager.getStatus();
+        wss.clients.forEach((client) => {
+            client.send(status);
+        });
+    }
+
     /* GET outlets listing. */
     router.get('/', function (req, res, next) {
         res.json(OutletManager.getStatus());
