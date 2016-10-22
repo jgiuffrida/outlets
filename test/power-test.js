@@ -1,6 +1,6 @@
 var OutletManager = require('../outlets/manager'),
     _ = require('lodash'),
-    testOutlets = [2,3,4,5,6];
+    testOutlets = [1,2,3,4,5,6,7,8,10,11,12,13,14,15,16];
 
 setInterval(() => {
     let outlet = _.sample(testOutlets);
