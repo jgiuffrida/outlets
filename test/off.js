@@ -12,5 +12,6 @@ var interval = setInterval(() => {
     idx = idx+delta;
     if(idx === testOutlets.length) {
         clearInterval(interval);
+        process.exit();
     }
 },200);
