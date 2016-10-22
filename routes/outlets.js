@@ -14,7 +14,7 @@ router.get('/:outletId', function(req, res, next) {
 
 // Post to on/off outlets
 router.post('/:outletId', (req, res, next) => {
-    console.log('setting',req.params.outletId,'to',req.body.value);
+    console.log('setting',req.params.outletId,'to',req.body.value, typeof req.body.value);
     OutletManager.setOutletStatus(req.params.outletId, !!req.body.value);   
     res.json(OutletManager.getOutletStatus(req.params.outletId));
 });
