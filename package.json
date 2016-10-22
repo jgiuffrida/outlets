@@ -4,7 +4,8 @@
   "description": "raspberry pi outlet control",
   "scripts": {
     "start": "node ./bin/www",
-    "power": "node ./test/power-test.js"
+    "power": "node ./test/power-test.js",
+    "post": "node ./test/on-off.js"
   },
   "repository": {
     "type": "git",
