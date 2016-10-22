@@ -13,7 +13,15 @@ class OutletManager {
             5: false,
             6: false,
             7: false,
-            8: false
+            8: false,
+            9: false,
+            10: false,
+            11: false,
+            12: false,
+            13: false,
+            14: false,
+            15: false,
+            16: false
         };
         this.outletToPins = {
             1: 12,
@@ -23,7 +31,15 @@ class OutletManager {
             5: 32,
             6: 36,
             7: 38,
-            8: 40
+            8: 40,
+            9: 7,
+            10: 11,
+            11: 13,
+            12: 15,
+            13: 29,
+            14: 31,
+            15: 33,
+            16: 35
         };
     }
 
