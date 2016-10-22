@@ -5,7 +5,9 @@
   "scripts": {
     "start": "node ./bin/www",
     "power": "node ./test/power-test.js",
-    "post": "node ./test/on-off.js"
+    "post": "node ./test/on-off.js",
+    "on": "node ./test/on.js",
+    "off": "node ./test/off.js"
   },
   "repository": {
     "type": "git",
