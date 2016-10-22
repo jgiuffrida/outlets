@@ -1,6 +1,6 @@
 var OutletManager = require('../outlets/manager'),
     _ = require('lodash'),
-    testOutlets = [1,2,3,4,5,6,7,8,10,11,12,13,14,15,16],
+    testOutlets = [2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],
     idx = 0,
     delta = 1;
 
