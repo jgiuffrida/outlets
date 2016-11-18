@@ -6,6 +6,8 @@ side project for raspberry pi controlled outlets
 ## running
 This project requires root access on the pi's to alter gpio pins
 
+*This will only run on raspberry pi*
+
 `sudo npm start`
 - Turn all outlets off and start express.js server
 
