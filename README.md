@@ -9,7 +9,7 @@ This project requires root access on the pi's to alter gpio pins
 *This will only run on raspberry pi*
 
 `sudo npm start`
-- Turn all outlets off and start express.js server
+- Turn all outlets off and start express.js server at port 3000
 
 `sudo npm run power`
 - Random outlet blinking
