@@ -1,6 +1,8 @@
 # outlets
 Raspberry Pi outlet control
 
+side project for raspberry pi controlled outlets
+
 ## running
 This project requires root access on the pi's to alter gpio pins
 
